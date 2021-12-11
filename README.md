@@ -13,7 +13,8 @@ This codebase implemented training code for [Space Time Memory Network](http://o
 - imgaug
 - yacs
 - progress
-- [nvidia-dali](https://docs.nvidia.com/deeplearning/dali/user-guide/docs/index.html) (optional)
+- [nvidia-dali](https://docs.nvidia.com/deeplearning/dali/user-guide/docs/index.html) (needed to train)
+- pip install --extra-index-url https://developer.download.nvidia.com/compute/redist --upgrade nvidia-dali-cuda110
 
 ### GPU support
 
