@@ -26,9 +26,9 @@ This codebase implemented training code for [Space Time Memory Network](http://o
 
 ## Data
 To get the dataset ->
-'''bash
+```bash
 wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1OYZ7GMmDjFx9BfmMenbfWPg_kB4NWfvp' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1OYZ7GMmDjFx9BfmMenbfWPg_kB4NWfvp" -O DAVIS17.zip && rm -rf /tmp/cookies.txt
-'''
+```
 See the doc [DATASET.md](./DATASET.md) for more details on data organization of our prepared dataset.
 
 ## Release
