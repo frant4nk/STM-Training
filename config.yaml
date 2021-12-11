@@ -1,4 +1,4 @@
-trainset: ['DAVIS17', 'VOS']
+trainset: ['DAVIS17']
 valset: 'DAVIS17'
 datafreq: [5, 1]
 input_size: [240, 427]   
@@ -33,6 +33,6 @@ initial: ''
 resume: ''
 video_path: ''
 mask_path: ''
-gpu_id: 1
+gpu_id: 0
 save_indexed_format: 'index'
 output_dir: 'output'
