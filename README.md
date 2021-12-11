@@ -21,6 +21,9 @@ This codebase implemented training code for [Space Time Memory Network](http://o
 - GPU Memory >= 12GB
 - CUDA >= 10.0
 
+### WORKING ON COLAB
+- First remove torch, torchvision, torchaudio, torchtext
+
 ## Data
 
 See the doc [DATASET.md](./DATASET.md) for more details on data organization of our prepared dataset.
