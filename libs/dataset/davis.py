@@ -122,7 +122,7 @@ class Davis17(BaseData):
         with open(dbfile, 'r') as f:
             db = yaml.load(f, Loader=yaml.Loader)['sequences']
 
-            targetset = 'train' if train else 'val'
+            targetset = 'training' if train else 'test'
             # targetset = 'training'
             self.info = db
             self.videos = [info['name'] for info in db if info['set']==targetset]
