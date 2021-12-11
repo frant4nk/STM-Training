@@ -16,7 +16,7 @@ from ..utils.logger import getLogger
 
 __DATA_CONTAINER = {}
 
-ROOT = '/home/fran/TFG/testing_personal/STM-Training'
+ROOT = '/home/fran/TFG/STM-Training'
 MAX_TRAINING_OBJ = 5
 MAX_TRAINING_SKIP = 100
 
